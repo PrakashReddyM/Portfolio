@@ -1,0 +1,32 @@
+.img{
+    width: 120px;
+    height: 120px;
+}
+
+.main{
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+    *{
+        width: 430px;
+    }
+    .main{
+      background-color: black;
+      display: flex;
+      flex-wrap: wrap;
+        height: 100vh;
+    }
+    .flex-column{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .d-flex.flex-wrap.justify-content-around > div {
+        width: 45%; /* Adjust the width as needed */
+        margin: 2%; /* Add margin between items */
+      }
+  }

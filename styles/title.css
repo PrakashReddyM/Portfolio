@@ -1,0 +1,46 @@
+
+
+
+/* styles/title.css */
+
+/* Default styles */
+.set {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Media queries for tablets (landscape and portrait) */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* Adjust styles for tablets here */
+  }
+  
+  /* Media queries for phones */
+  @media (max-width: 767px) {
+    .set {
+      padding-top: 50px; /* Adjust the padding as needed */
+    }
+    
+    .row.align-items-center.text-center {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .col-12.col-md-6 {
+      width: 100%;
+    }
+  
+    .col-12.col-md-6.pt-4 {
+      padding-top: 20px; /* Adjust the padding as needed */
+    }
+  
+    .img-fluid.w-50.rounded-5 {
+      width: 80%; /* Adjust the width as needed */
+      margin-bottom: 20px; /* Adjust the margin as needed */
+    }
+  
+    .font-weight-bold {
+      font-size: 24px; /* Adjust the font size as needed */
+    }
+  }
+  
