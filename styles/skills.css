@@ -1,32 +1,54 @@
 .img{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
 }
 
 .main{
-    height: 120vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
 }
 
-@media only screen and (max-width: 600px) {
-    *{
-        width: 430px;
-    }
-    .main{
-      background-color: black;
-      display: flex;
-      flex-wrap: wrap;
-        height: 100vh;
-    }
-    .flex-column{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .d-flex.flex-wrap.justify-content-around > div {
-        width: 45%; /* Adjust the width as needed */
-        margin: 2%; /* Add margin between items */
-      }
+@media (max-width: 767px) {
+  .main.bg {
+    background-color: black; /* Set the background color of the main container to black */
+    width: 100%; /* Set the width to 100% */
+    display: flex;
+    height: 120vh;
+    flex-direction: column;
   }
+  .img{
+    width: 90px;
+    height: 90px;
+  }
+
+  .container.text-center.py-4 {
+    width: 100%; /* Set the width of the container to 100% */
+    padding: 0px 0; /* Add padding to the top and bottom */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+  }
+
+  .d-flex.w-80.flex-column.align-items-center.justify-content-between.py-2 {
+    width: 100%; /* Set width to 100% for better responsiveness */
+  }
+
+  .d-flex.flex-wrap.justify-content-around {
+    flex-wrap: wrap; /* Ensure skills wrap onto multiple lines */
+  }
+
+  .d-flex.flex-column.align-items-center.p-4 {
+    width: calc(50% - 20px); /* Each skill container takes up 50% of the width minus the margin */
+    margin: 10px; /* Add margin to each skill container */
+    padding: 20px; /* Add padding to the skill container */
+    border-radius: 10px; /* Add border radius for rounded corners */
+  }
+}
+
+
+
+
+
+  
+  

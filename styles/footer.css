@@ -1,8 +1,8 @@
 .footer{
     background-color: black;
-    height: 70vh;
+    height: 50vh;
     box-sizing: border-box;
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 .one{
@@ -14,7 +14,7 @@
 }
 
 .two{
-    padding-top: 20px;
+    padding-top: 10px;
     display: flex;
     align-items: last baseline;
     justify-content: center;
@@ -28,46 +28,57 @@
 }
 
 
-/* Media query for mobile devices */
-@media only screen and (max-width: 767px) {
-    .footer {
-        margin-top: 50px;
-      max-width: 430px; /* Set the maximum width of the footer section to 400px */
-      margin: 0 auto; /* Center the footer horizontally */
-      padding: 20px; /* Add padding to the footer for better spacing on mobile */
-    }
-  
-    .one {
-      text-align: center; /* Center-align the content within the .one div */
-      margin-bottom: 20px; /* Add some margin at the bottom of the .one div */
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .three {
-        text-align: center; /* Center-align the content within the .three div */
-        min-width: 350px; /* Set the minimum width of the .three div to 430px */
-        white-space: nowrap; /* Prevent wrapping of content */
-        margin-top: 50px;
-      }
-    .d-flex > a{
-        max-width: 5px;
-    }
-  
-    .btn {
-      width: 200px; /* Set a specific width for the button on mobile */
-      margin-top: 10px; /* Add some margin at the top of the button for better spacing */
-    }
-  
-    .social-icons {
-      margin-top: 20px; /* Add some margin at the top of the social icons for better spacing */
-    }
-  
-    .social-icons a {
-      display: inline-block;
-      width: 40px; /* Set a shorter width for the social icons */
-      margin: 0 10px; /* Add some margin between social icons */
-    }
+@media (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-right: 55px;
+    height: 56vh;
   }
+
+  .one{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-top: 60px;
+  }
+
+  h2{
+    font-size: 20px;
+  }
+
+  .btn{
+    font-size: 15px;
+  }
+
+  .one,
+  .two {
+    width: 100%;
+    padding-left: 60px;
+  }
+
+  .three {
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  .three h5 {
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .three .d-flex {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+
+  .three a {
+    margin: 1px;
+  }
+}
+
   
   
