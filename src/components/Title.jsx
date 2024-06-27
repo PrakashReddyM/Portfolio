@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/title.css"
+import hero from "../asswsts/hero.jpeg"
 
 const Title = () => {
     const Name = "Prakash Reddy";
@@ -10,7 +11,7 @@ const Title = () => {
         <div className="col-12 col-md-6">
           <img
             className="img-fluid w-50 rounded-5"
-            src="https://media.licdn.com/dms/image/D5603AQFceqZBblK-ig/profile-displayphoto-shrink_800_800/0/1712831157564?e=1718841600&v=beta&t=uB4bXKUc0Lxzm4qLJWQiHIm7k1av9JoeYJm6q3ANG0s"
+            src={hero}
             alt="Prakash Reddy"
           />
         </div>

@@ -11,7 +11,7 @@ const Footer = () => {
              Let`s Talk 
            </button>
       </div>
-      <div>
+      <div className="three">
       <h5 className="btn font-weight-bold btn-warning btn-block">SOCIAL</h5>
              <div className="d-flex justify-content-center">
                <a href={"https://www.linkedin.com/in/prakash-reddy-199b5b23a/?trk=opento_sprofile_goalscard"}>

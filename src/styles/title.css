@@ -1,5 +1,23 @@
-.set{
-    height: 80vh;
+
+
+
+/* styles/title.css */
+
+/* Default styles */
+.set {
+    height: 100vh;
     display: flex;
     align-items: center;
-}
+  }
+  
+  @media (max-width: 767px) {
+    .align-items-center.text-center {
+      flex-direction: column;
+    }
+    .col-12 {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  

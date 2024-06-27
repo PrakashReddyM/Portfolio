@@ -6,3 +6,24 @@
 .toggle-bar {
     display: none;
 }
+
+/* styles/main.css */
+
+/* Your default styles here */
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 767px) {
+  /* Styles specific to mobile devices */
+  body {
+    font-size: 16px; /* Adjust the font size for mobile */
+  }
+
+  .container {
+    width: 100%; /* Adjust container width for better readability on mobile */
+  }
+
+  /* Add more styles as needed */
+}
+
+
+  

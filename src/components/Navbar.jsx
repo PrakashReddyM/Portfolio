@@ -1,4 +1,5 @@
 import React from 'react'
+import "../styles/navbar.css"
 
 const Navbar = () => {
   return (
@@ -7,10 +8,6 @@ const Navbar = () => {
         <a href="/" className="navbar-brand text-dark font-weight-bold"
           >Prakash Reddy</a
         >
-
-        <button className="btn btn-outline-success ml-auto">Contact Me</button>
-        
-        
       </div>
     </nav>
   )

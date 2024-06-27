@@ -38,3 +38,48 @@ img{
 .content > h4{
     color: yellow;
 }
+
+
+
+
+@media (max-width: 767px) {
+    .sect{
+        background-color: black;
+        width: 100%;
+        height: 180vh;
+        padding-top: 5px;
+    }
+    .container {
+        width: 100%;
+      
+    }
+  
+    .car {
+      flex-direction: column;
+      align-items: center;
+      box-sizing: border-box;
+     
+    }
+
+    .bus{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    .car img {
+      width: 100%;
+      width: 280px; /* Adjust max-width as needed */
+      height: 160px;
+    }
+  
+    .content p{
+      border: 1px solid white;
+      border-radius: 10px;
+        width: 280px;
+      text-align: center;
+    }
+  }
+  
+  
+ 
+  

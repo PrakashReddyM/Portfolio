@@ -6,7 +6,7 @@ function Contact() {
       <div className="contact-form">
         <div className="row justify-content-center">
           <div className="col-lg-6">
-            <h2 className="text-center font-weight-bold  mb-4">CONTACT ME</h2>
+            <h2 className="head text-center font-weight-bold  mb-4">CONTACT ME</h2>
             <form action="https://formspree.io/f/xbjnqavr" method="POST">
               <div className="form-group">
                 <label htmlFor="name">Name</label>

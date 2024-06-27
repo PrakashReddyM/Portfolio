@@ -15,7 +15,7 @@ const ProjectSection = () => {
                         <p>An immersive tea marketplace crafted with React and CSS, offering a seamless blend of tradition and modernity in UI design.</p>
                     </div>
                 </div>
-                <div className="car">
+                <div className="car bus">
                     <div className='content'>
                         <h4>Videos HUB</h4>
                         <p>Explore and upload videos effortlessly,Designed with React and Material UI, featuring a sleek UI design for seamless navigation and engagement.</p>
